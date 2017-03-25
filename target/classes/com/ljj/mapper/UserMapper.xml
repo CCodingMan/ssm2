@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljj.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.ljj.model.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="USER_ID" jdbcType="INTEGER" property="userId" />
+    <result column="USER_NAME" jdbcType="CHAR" property="userName" />
+    <result column="USER_PASSWORD" jdbcType="CHAR" property="userPassword" />
+    <result column="USER_EMAIL" jdbcType="CHAR" property="userEmail" />
+  </resultMap>
+</mapper>
